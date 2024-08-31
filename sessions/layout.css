@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  height: 70px;
+  background-color: red;
+}
+.hero-section {
+  height: 600px;
+  background-color: aqua;
+}
+.productContainer {
+  height: 400px;
+  background-color: blue;
+  padding: 40px;
+  color: white;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.card {
+  height: 350px;
+  width: 300px;
+  background-color: burlywood;
+  margin: 5px;
+  border-radius: 16px;
+}
+.dentist-section {
+  height: 600px;
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dentist-card-section {
+  height: 500px;
+  width: 40%;
+  /* background-color: palevioletred; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dentist-content {
+  height: 500px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: chocolate; */
+}
+.card-1{
+    height: 240px;
+    width: 230px;
+    background-color: black;
+    border-radius: 16px;
+}
+.card-2{
+    height: 240px;
+    width: 230px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 16px;
+}
+.card-3{
+    height: 490px;
+    width: 60%;
+    background-color: blue;
+    border-radius: 16px;
+}
+.d-card-sec-1{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
